@@ -1,0 +1,162 @@
+\hypertarget{classaghTest}{\section{agh\-Test \-Class \-Reference}
+\label{classaghTest}\index{agh\-Test@{agh\-Test}}
+}
+
+
+\-Definicja klasy abstrakcyjnej \hyperlink{classaghTest}{agh\-Test}.  
+
+
+
+
+{\ttfamily \#include $<$agh\-Test.\-h$>$}
+
+\-Inheritance diagram for agh\-Test\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classaghTest}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classaghTest_ad401b4396042eec67f799a3321c24da6}{\hyperlink{classaghTest_ad401b4396042eec67f799a3321c24da6}{agh\-Test} ()}\label{classaghTest_ad401b4396042eec67f799a3321c24da6}
+
+\begin{DoxyCompactList}\small\item\em \-Konstruktor bezparametrowy klasy. \end{DoxyCompactList}\item 
+\hyperlink{classaghTest_a1e64dbd5d26b0852983b94fee03d3acf}{agh\-Test} (\hyperlink{classaghGenerator}{agh\-Generator} $\ast$\-\_\-wsk\-Generator, int \-\_\-ilosc\-Liczb)
+\begin{DoxyCompactList}\small\item\em \-Konstruktor parametrowy klasy. \end{DoxyCompactList}\item 
+\hypertarget{classaghTest_ae4906739e0f9e889febd23a43803b481}{virtual \hyperlink{classaghTest_ae4906739e0f9e889febd23a43803b481}{$\sim$agh\-Test} ()}\label{classaghTest_ae4906739e0f9e889febd23a43803b481}
+
+\begin{DoxyCompactList}\small\item\em \-Wirtualny destruktor klasy. \end{DoxyCompactList}\item 
+void \hyperlink{classaghTest_a971401190c3ddb295c8f09fe40291ae7}{ustaw\-Generator} (\hyperlink{classaghGenerator}{agh\-Generator} $\ast$\-\_\-wsk\-Generator)
+\begin{DoxyCompactList}\small\item\em \-Funkcja ustawaijąca wskaźnik na generator. \end{DoxyCompactList}\item 
+void \hyperlink{classaghTest_a69b1abb67e748e5077c0d8dbf798bb95}{ustaw\-Ilosc\-Liczb} (int \-\_\-ilosc\-Liczb)
+\begin{DoxyCompactList}\small\item\em \-Funkcja ustawaijąca ilośc liczb do wylosowania. \end{DoxyCompactList}\item 
+\hypertarget{classaghTest_aedc07452db24c0b2389599fbb5a25e03}{virtual void \hyperlink{classaghTest_aedc07452db24c0b2389599fbb5a25e03}{testuj} ()=0}\label{classaghTest_aedc07452db24c0b2389599fbb5a25e03}
+
+\begin{DoxyCompactList}\small\item\em \-Czysto wirtualna funkcja testująca generator. \end{DoxyCompactList}\item 
+void \hyperlink{classaghTest_aa278aea7075db6ddf520b193038265a5}{wypisz\-Nazwe} (ostream \&strumien=cout)
+\begin{DoxyCompactList}\small\item\em \-Funkcja wypisująca na zadany strumien nazwe testu. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classaghTest_ad43c3c9a98d652936d9a5fe90aa1b57b}{wypisz} (ostream \&strumien=cout)=0
+\begin{DoxyCompactList}\small\item\em \-Czysto wirtualna funkcja wypisująca na zadany strumien wynik testu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classaghTest_a857cc9a7264a6c91d570dca932b170a1}{\hyperlink{classaghGenerator}{agh\-Generator} $\ast$ \hyperlink{classaghTest_a857cc9a7264a6c91d570dca932b170a1}{wsk\-Generator}}\label{classaghTest_a857cc9a7264a6c91d570dca932b170a1}
+
+\begin{DoxyCompactList}\small\item\em \-Wskaźnik na generator. \end{DoxyCompactList}\item 
+\hypertarget{classaghTest_ac7b2b561a6c98219dd5ba7a7e24bd1d9}{int \hyperlink{classaghTest_ac7b2b561a6c98219dd5ba7a7e24bd1d9}{ilosc\-Liczb}}\label{classaghTest_ac7b2b561a6c98219dd5ba7a7e24bd1d9}
+
+\begin{DoxyCompactList}\small\item\em \-Ilośc liczb do wylosowania. \end{DoxyCompactList}\item 
+\hypertarget{classaghTest_a81d6064593d5da46e32f4e1ecdc45550}{const char $\ast$ \hyperlink{classaghTest_a81d6064593d5da46e32f4e1ecdc45550}{nazwa\-Test}}\label{classaghTest_a81d6064593d5da46e32f4e1ecdc45550}
+
+\begin{DoxyCompactList}\small\item\em \-Nazwa testu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Definicja klasy abstrakcyjnej \hyperlink{classaghTest}{agh\-Test}. 
+
+\begin{DoxyAuthor}{\-Author}
+\-Izabela Śmietana \& \-Krzysztof \-Spytkowski 
+\end{DoxyAuthor}
+\begin{DoxyDate}{\-Date}
+16.\-05.\-2013 
+\end{DoxyDate}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classaghTest_a1e64dbd5d26b0852983b94fee03d3acf}{\index{agh\-Test@{agh\-Test}!agh\-Test@{agh\-Test}}
+\index{agh\-Test@{agh\-Test}!aghTest@{agh\-Test}}
+\subsubsection[{agh\-Test}]{\setlength{\rightskip}{0pt plus 5cm}{\bf agh\-Test\-::agh\-Test} (
+\begin{DoxyParamCaption}
+\item[{{\bf agh\-Generator} $\ast$}]{\-\_\-wsk\-Generator, }
+\item[{int}]{\-\_\-ilosc\-Liczb}
+\end{DoxyParamCaption}
+)}}\label{classaghTest_a1e64dbd5d26b0852983b94fee03d3acf}
+
+
+\-Konstruktor parametrowy klasy. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-wsk\-Generator} & -\/ \-Wskaźnik na generator \\
+\hline
+{\em \-\_\-ilosc\-Liczb} & -\/ \-Ilośc liczb do wylosowania \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classaghTest_a971401190c3ddb295c8f09fe40291ae7}{\index{agh\-Test@{agh\-Test}!ustaw\-Generator@{ustaw\-Generator}}
+\index{ustaw\-Generator@{ustaw\-Generator}!aghTest@{agh\-Test}}
+\subsubsection[{ustaw\-Generator}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf agh\-Test\-::ustaw\-Generator} (
+\begin{DoxyParamCaption}
+\item[{{\bf agh\-Generator} $\ast$}]{\-\_\-wsk\-Generator}
+\end{DoxyParamCaption}
+)}}\label{classaghTest_a971401190c3ddb295c8f09fe40291ae7}
+
+
+\-Funkcja ustawaijąca wskaźnik na generator. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-wsk\-Generator} & -\/ \-Wskaźnik na generator \\
+\hline
+\end{DoxyParams}
+\hypertarget{classaghTest_a69b1abb67e748e5077c0d8dbf798bb95}{\index{agh\-Test@{agh\-Test}!ustaw\-Ilosc\-Liczb@{ustaw\-Ilosc\-Liczb}}
+\index{ustaw\-Ilosc\-Liczb@{ustaw\-Ilosc\-Liczb}!aghTest@{agh\-Test}}
+\subsubsection[{ustaw\-Ilosc\-Liczb}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf agh\-Test\-::ustaw\-Ilosc\-Liczb} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-ilosc\-Liczb}
+\end{DoxyParamCaption}
+)}}\label{classaghTest_a69b1abb67e748e5077c0d8dbf798bb95}
+
+
+\-Funkcja ustawaijąca ilośc liczb do wylosowania. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-\_\-ilosc\-Liczb} & -\/ \-Ilośc liczb do wylosowania \\
+\hline
+\end{DoxyParams}
+\hypertarget{classaghTest_ad43c3c9a98d652936d9a5fe90aa1b57b}{\index{agh\-Test@{agh\-Test}!wypisz@{wypisz}}
+\index{wypisz@{wypisz}!aghTest@{agh\-Test}}
+\subsubsection[{wypisz}]{\setlength{\rightskip}{0pt plus 5cm}virtual void {\bf agh\-Test\-::wypisz} (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{strumien = {\ttfamily cout}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}\label{classaghTest_ad43c3c9a98d652936d9a5fe90aa1b57b}
+
+
+\-Czysto wirtualna funkcja wypisująca na zadany strumien wynik testu. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em strumien} & -\/ \-Strumien, na który należy wypisać wynik testu (domyślnie cout) \\
+\hline
+\end{DoxyParams}
+
+
+\-Implemented in \hyperlink{classaghChiKwadrat_a6d86b271437ada0f232164812a3671c5}{agh\-Chi\-Kwadrat}, \hyperlink{classaghPi_ab3647aaa2e951924447d755379d043b4}{agh\-Pi}, and \hyperlink{classaghSrednia_ab66006aa06658abf55422d3629cf95f5}{agh\-Srednia}.
+
+\hypertarget{classaghTest_aa278aea7075db6ddf520b193038265a5}{\index{agh\-Test@{agh\-Test}!wypisz\-Nazwe@{wypisz\-Nazwe}}
+\index{wypisz\-Nazwe@{wypisz\-Nazwe}!aghTest@{agh\-Test}}
+\subsubsection[{wypisz\-Nazwe}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf agh\-Test\-::wypisz\-Nazwe} (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{strumien = {\ttfamily cout}}
+\end{DoxyParamCaption}
+)}}\label{classaghTest_aa278aea7075db6ddf520b193038265a5}
+
+
+\-Funkcja wypisująca na zadany strumien nazwe testu. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em strumien} & -\/ \-Strumien, na który należy wypisać nazwe testu (domyślnie cout) \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{aghTest_8h}{agh\-Test.\-h}\item 
+agh\-Test.\-cpp\end{DoxyCompactItemize}
