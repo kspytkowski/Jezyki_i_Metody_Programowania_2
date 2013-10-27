@@ -1,0 +1,206 @@
+\hypertarget{classaghSlist}{\section{agh\-Slist$<$ \-W $>$ \-Class \-Template \-Reference}
+\label{classaghSlist}\index{agh\-Slist$<$ W $>$@{agh\-Slist$<$ W $>$}}
+}
+
+
+\-Definicja abstrakcyjnej klasy szablonowej \hyperlink{classaghSlist}{agh\-Slist}.  
+
+
+
+
+{\ttfamily \#include $<$agh\-Slist.\-h$>$}
+
+\-Inheritance diagram for agh\-Slist$<$ \-W $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classaghSlist}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classaghSlist_a840c04c469deeee8a201cd0ea7b946d5}{\hyperlink{classaghSlist_a840c04c469deeee8a201cd0ea7b946d5}{agh\-Slist} (void)}\label{classaghSlist_a840c04c469deeee8a201cd0ea7b946d5}
+
+\begin{DoxyCompactList}\small\item\em \-Konstruktor bezparametrowy klasy. \end{DoxyCompactList}\item 
+\hyperlink{classaghSlist_a6a7c631322a874a66a931f6522700ec3}{agh\-Slist} (const \hyperlink{classaghSlist}{agh\-Slist}$<$ \-W $>$ \&model)
+\begin{DoxyCompactList}\small\item\em \-Konstruktor kopiujący klasy. \end{DoxyCompactList}\item 
+\hyperlink{classaghSlist_abc0bb36a38e765fb8fb8697c0a8bd6c8}{agh\-Slist} (const \hyperlink{classaghContainer}{agh\-Container}$<$ \-W $>$ \&model)
+\begin{DoxyCompactList}\small\item\em \-Konstruktor kopiujący klasy (przyjmujący stałą referencje do klasy bazowej) \end{DoxyCompactList}\item 
+\hypertarget{classaghSlist_a50e7f302972d1d1d8b480a094d3e1a6c}{\hyperlink{classaghSlist_a50e7f302972d1d1d8b480a094d3e1a6c}{$\sim$agh\-Slist} (void)}\label{classaghSlist_a50e7f302972d1d1d8b480a094d3e1a6c}
+
+\begin{DoxyCompactList}\small\item\em \-Destruktor klasy. \end{DoxyCompactList}\item 
+\hyperlink{classaghSlist}{agh\-Slist}$<$ \-W $>$ \& \hyperlink{classaghSlist_aff364ad7b99ee7560d4d19efb32d2a51}{operator=} (const \hyperlink{classaghSlist}{agh\-Slist}$<$ \-W $>$ \&model)
+\begin{DoxyCompactList}\small\item\em \-Przeładowany operator=. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classaghSlist_adfb39cd96d6878189abd0d829575a79c}{insert} (int index, \-W const \&element)
+\begin{DoxyCompactList}\small\item\em \-Czystko wirtualna funkcja wstawiająca element do pojemnika. \end{DoxyCompactList}\item 
+virtual \-W \& \hyperlink{classaghSlist_a1bae09beb186b077469d650b9743d61c}{at} (int index) const 
+\begin{DoxyCompactList}\small\item\em \-Czystko wirtualna funkcja zwracająca wartość danego elementu w pojemniku. \end{DoxyCompactList}\item 
+virtual int \hyperlink{classaghSlist_a6b4744ddab368a8a2ef145cfd156c648}{size} (void) const 
+\begin{DoxyCompactList}\small\item\em \-Czystko wirtualna funkcja zwracająca ilosc elementow w pojemniku. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classaghSlist_a3e76d3bb89336f0385480699c3f8e51d}{remove} (int index)
+\begin{DoxyCompactList}\small\item\em \-Czystko wirtualna funkcja usuwająca element z pojemnika. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\subsubsection*{template$<$class \-W$>$class agh\-Slist$<$ W $>$}
+
+\-Definicja abstrakcyjnej klasy szablonowej \hyperlink{classaghSlist}{agh\-Slist}. 
+
+\begin{DoxyAuthor}{\-Author}
+\-Izabela Śmietana \& \-Krzysztof \-Spytkowski 
+\end{DoxyAuthor}
+\begin{DoxyDate}{\-Date}
+30.\-05.\-2013 
+\end{DoxyDate}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classaghSlist_a6a7c631322a874a66a931f6522700ec3}{\index{agh\-Slist@{agh\-Slist}!agh\-Slist@{agh\-Slist}}
+\index{agh\-Slist@{agh\-Slist}!aghSlist@{agh\-Slist}}
+\subsubsection[{agh\-Slist}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class W $>$ {\bf agh\-Slist}$<$ \-W $>$\-::{\bf agh\-Slist} (
+\begin{DoxyParamCaption}
+\item[{const {\bf agh\-Slist}$<$ \-W $>$ \&}]{model}
+\end{DoxyParamCaption}
+)}}\label{classaghSlist_a6a7c631322a874a66a931f6522700ec3}
+
+
+\-Konstruktor kopiujący klasy. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em model} & -\/ \-Model pojemnika \\
+\hline
+\end{DoxyParams}
+\hypertarget{classaghSlist_abc0bb36a38e765fb8fb8697c0a8bd6c8}{\index{agh\-Slist@{agh\-Slist}!agh\-Slist@{agh\-Slist}}
+\index{agh\-Slist@{agh\-Slist}!aghSlist@{agh\-Slist}}
+\subsubsection[{agh\-Slist}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class W $>$ {\bf agh\-Slist}$<$ \-W $>$\-::{\bf agh\-Slist} (
+\begin{DoxyParamCaption}
+\item[{const {\bf agh\-Container}$<$ \-W $>$ \&}]{model}
+\end{DoxyParamCaption}
+)}}\label{classaghSlist_abc0bb36a38e765fb8fb8697c0a8bd6c8}
+
+
+\-Konstruktor kopiujący klasy (przyjmujący stałą referencje do klasy bazowej) 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em model} & -\/ \-Model pojemnika \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classaghSlist_a1bae09beb186b077469d650b9743d61c}{\index{agh\-Slist@{agh\-Slist}!at@{at}}
+\index{at@{at}!aghSlist@{agh\-Slist}}
+\subsubsection[{at}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class W $>$ \-W \& {\bf agh\-Slist}$<$ \-W $>$\-::{\bf at} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classaghSlist_a1bae09beb186b077469d650b9743d61c}
+
+
+\-Czystko wirtualna funkcja zwracająca wartość danego elementu w pojemniku. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & -\/ \-Index poszukiwanego elementu pojemnika \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Poszukiwana wartość 
+\end{DoxyReturn}
+
+
+\-Implements \hyperlink{classaghContainer_ac4f8b1f2109bd9439d491c8c02b27d66}{agh\-Container$<$ W $>$}.
+
+\hypertarget{classaghSlist_adfb39cd96d6878189abd0d829575a79c}{\index{agh\-Slist@{agh\-Slist}!insert@{insert}}
+\index{insert@{insert}!aghSlist@{agh\-Slist}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class W $>$ bool {\bf agh\-Slist}$<$ \-W $>$\-::{\bf insert} (
+\begin{DoxyParamCaption}
+\item[{int}]{index, }
+\item[{\-W const \&}]{element}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classaghSlist_adfb39cd96d6878189abd0d829575a79c}
+
+
+\-Czystko wirtualna funkcja wstawiająca element do pojemnika. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & -\/ \-Index miejsca, gdzie należy wstawić element \\
+\hline
+{\em element} & -\/ \-Nowy element \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Wrtość logiczna będącą miarą powodzenia operacji 
+\end{DoxyReturn}
+
+
+\-Implements \hyperlink{classaghContainer_a251a27a833adec0ba54e7a59e9c0127d}{agh\-Container$<$ W $>$}.
+
+\hypertarget{classaghSlist_aff364ad7b99ee7560d4d19efb32d2a51}{\index{agh\-Slist@{agh\-Slist}!operator=@{operator=}}
+\index{operator=@{operator=}!aghSlist@{agh\-Slist}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class W $>$ {\bf agh\-Slist}$<$ \-W $>$ \& {\bf agh\-Slist}$<$ \-W $>$\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf agh\-Slist}$<$ \-W $>$ \&}]{model}
+\end{DoxyParamCaption}
+)}}\label{classaghSlist_aff364ad7b99ee7560d4d19efb32d2a51}
+
+
+\-Przeładowany operator=. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em model} & -\/ \-Model pojemnika \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Referencja do this 
+\end{DoxyReturn}
+\hypertarget{classaghSlist_a3e76d3bb89336f0385480699c3f8e51d}{\index{agh\-Slist@{agh\-Slist}!remove@{remove}}
+\index{remove@{remove}!aghSlist@{agh\-Slist}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class W $>$ bool {\bf agh\-Slist}$<$ \-W $>$\-::{\bf remove} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classaghSlist_a3e76d3bb89336f0385480699c3f8e51d}
+
+
+\-Czystko wirtualna funkcja usuwająca element z pojemnika. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em index} & -\/ \-Index elementu do usunięcia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Wrtość logiczna będącą miarą powodzenia operacji 
+\end{DoxyReturn}
+
+
+\-Implements \hyperlink{classaghContainer_a6c987e618b15c4866334eebd98f83b0f}{agh\-Container$<$ W $>$}.
+
+\hypertarget{classaghSlist_a6b4744ddab368a8a2ef145cfd156c648}{\index{agh\-Slist@{agh\-Slist}!size@{size}}
+\index{size@{size}!aghSlist@{agh\-Slist}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class W $>$ int {\bf agh\-Slist}$<$ \-W $>$\-::{\bf size} (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classaghSlist_a6b4744ddab368a8a2ef145cfd156c648}
+
+
+\-Czystko wirtualna funkcja zwracająca ilosc elementow w pojemniku. 
+
+\begin{DoxyReturn}{\-Returns}
+\-Ilosc elementow w pojemniku 
+\end{DoxyReturn}
+
+
+\-Implements \hyperlink{classaghContainer_af33c330cf9c679612f6409f07eeb93b9}{agh\-Container$<$ W $>$}.
+
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{aghSlist_8h}{agh\-Slist.\-h}\end{DoxyCompactItemize}
